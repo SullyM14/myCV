@@ -1,0 +1,49 @@
+﻿body{
+    background-color:aliceblue;
+}
+
+h1 {
+    align-items: center;
+    text-align: center;
+}
+
+sign-in{
+    align-items:center;
+    text-align:center;
+}
+
+h3 {
+    text-align: center;
+    font-display: block;
+    background-color: whitesmoke;
+    border-bottom-style:double;
+}
+
+p{
+    font-family:'Times New Roman', Times, serif;
+}
+
+ul{
+    list-style-position:inside;
+    list-style-type:square;
+}
+
+shortcuts {
+   background-color:whitesmoke;
+   align-content:center;
+   text-align:center;
+}
+
+a {
+    align-content:center;
+    text-align:center;
+    background-color: whitesmoke;
+    text-decoration: solid;
+    color: black;
+    border-color: black;
+    padding-right:50px;
+    display:inline-flex;
+    font-weight:bold;
+}
+
+
