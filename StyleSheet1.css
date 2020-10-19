@@ -7,10 +7,79 @@ h1 {
     text-align: center;
 }
 
-sign-in{
-    align-items:center;
-    text-align:center;
+.login-div{
+    margin:100px auto;
+    width: 350px;
+    background-color:white;
+    padding: 60px;
 }
+
+.logo{
+   background-color: aliceblue;
+   width: 150px;
+   height:150px;
+   border-radius: 50%;
+   margin:0 auto;
+   margin-bottom: 10px;
+}
+
+.logo img{
+    width: 100%;
+}
+
+.title{
+    text-align:center;
+    color:black;
+    font-weight:bold;
+    font-size:35px;
+}
+
+.form {
+    width: 100%;
+    margin-top: 30px;
+    align-content: center;
+    text-align: center;
+}
+
+form{
+    display:inline-block;
+}
+
+.form input {
+    font-size: 18px;
+    padding: 10px 20px 10px 5px;
+    border: none;
+    background: none;
+    outline: none;
+    display: block;
+    border-radius: 30px;
+    border: 1px;
+    border-style: solid;
+    border-color: black;
+    padding: 15px;
+    margin: 10px 0;
+    text-align: center;
+    }
+
+button.submit{
+    width:100%;
+    padding: 12px 10px;
+    border: none;
+    border-radius:30px;
+    font-size: 30px;
+    background-color: aliceblue;
+    color:black;
+    margin-bottom: 5px;
+    transition-duration: 0.5s;
+}
+
+.submit:hover{
+    background-color:lightgray;
+    outline-color: black;
+    outline:auto;
+    
+}
+
 
 h3 {
     text-align: center;
