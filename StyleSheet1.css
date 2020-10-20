@@ -101,7 +101,7 @@ ul{
 a {
     align-content:center;
     text-align:center;
-    background-color: whitesmoke;
+    background-color: aliceblue;
     text-decoration: solid;
     color: black;
     border-color: black;
@@ -114,11 +114,12 @@ a {
     overflow:hidden;
     background-color:aliceblue;
     color: black;
+    font-size:18px;
 }
 
 .navbar a {
         float: left;
-        font-size: 16px;
+        font-size: 18px;
         color: black;
         text-align: center;
         padding: 14px 16px;
@@ -131,7 +132,7 @@ a {
 }
 
 .dropdown .dropbtn {
-        font-size: 16px;
+        font-size: 18px;
         border: none;
         outline: none;
         color: black;
@@ -173,5 +174,18 @@ a {
     display: block;
 }
 
+.welcome {
+    font-size: 48px;
+    color: black;
+    text-align: center;
+    font-weight:bold;
+    align-content: center;
+    margin-top: 150px;
+    padding: 100px 10px 100px 10px;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif
+}
 
+.navbar2{
+    float:right;
+}
 
