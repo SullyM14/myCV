@@ -1,8 +1,9 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 <head>
     <Link href="https://fonts.googleapis.com/icon?family=Material+Icons"
           rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="StyleSheet1.css" rel="stylesheet" />
     <meta charset="utf-8" />
     <title>Your Sparta Global CV</title>
@@ -10,13 +11,18 @@
 <body>
     <header>
         <div class="navbar">
-            <div class="navbar1">
-                <a href="Welcome.html">Home</a>
+            <div class="topnav" id="myTopnav">
+                <a href="Welcome.html" class="active">Home</a>
                 <a href="MyCVHome.html">My CV</a>
                 <a href="index.html">Logout</a>
+                <a  class="icon" onclick="menuBar()">
+                    <i class="fa fa-bars"></i>
+                </a>
             </div>
         </div>
     </header>
     <h1 class="welcome">Welcome</h1>
+
+    <script src="FunctionScript.js"></script>
 </body>
 </html>
